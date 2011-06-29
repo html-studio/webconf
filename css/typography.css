@@ -1,0 +1,158 @@
+/* Typography
+---------------------------------------------- */
+body {	
+	font:normal 62.5% Georgia, Palatino, "Palatino Linotype", Times, "Times New Roman", serif;
+	color:#333;
+	}
+
+/* links */
+a {
+    text-decoration:underline;
+    color:#508ce9;
+    }
+    a:hover {
+		text-decoration:none;
+		color:#467fd7;
+		}	
+	
+/* titles */
+h1, h2, h3, h4 { 
+	margin:1.25em 0 .4em;
+	font-family:"Neucha", Arial, serif;
+    line-height:1.25em;
+	font-weight:normal;
+    color:#666;
+	}	
+h1, h2 {font-size:4.8em;}
+h3 {font-size:3.6em;}
+h4 {font-size:2.4em;}
+h5 {
+    margin:1em 0 .5em;
+	font-size:1.8em;
+	font-weight:bold;
+	}
+h6 {
+    margin:0 0 .5em;
+    font-size:1.6em;
+    font-weight:bold;
+	}
+	
+/* paragraph */	
+p {
+	margin-bottom:.5em;
+	text-indent:0;
+	line-height:1.5em;
+	font-size:1.6em;
+	}
+
+/* images */
+img {
+    border:10px solid #fff;
+    background:#cdcdcd;
+    }
+figure {margin:0 0 .5em;}
+    figure img {
+        display:block;
+        margin:0 0 .5em;
+        }
+    figure figcaption {
+        line-height:1.3em;
+        font-size:1.1em;
+        font-style:italic;
+        color:#999;
+        }
+
+/* lists :: unordered list */
+ul {
+	margin:0 0 1em 2em;
+	padding:0;
+	list-style-type:circle;	
+	}
+	ul li {
+		padding:0;
+		line-height:1.5em;
+		font-size:1.6em;
+		}
+		 ul li ul {margin:0 0 0 3em;}
+			ul li li {font-size:1em;}
+
+/* lists :: ordered list */
+ol {
+	margin:0 0 1em 3em;
+	padding:0;	
+	list-style-type:decimal-leading-zero;
+	}
+    ol li {
+        line-height:1.5em;
+        font-size:1.6em;
+        }
+    	ol li ol {
+            margin:0 0 .2em 3.5em;            
+            list-style-type:lower-latin;
+            }
+        	* html ol li ol {margin:0 0 .2em 2em;}
+        	*+html ol li ol {margin:0 0 .2em 2em;}
+    		ol li li {font-size:1em;}
+			
+/* lists :: definition list */	
+dl {margin:0 0 1em;}		
+    dl dt, dl dd {
+        line-height:1.5em;
+        font-size:1.6em;
+        }		
+    dl dt {margin:.5em 0 0;}
+    dl dd {margin:0 0 0 2em;}
+	
+/* quotes */
+blockquote { 
+	margin:1.5em 0;
+	padding:.5em 35px; 
+	font-style:italic;
+	color:#666;
+	border-left:5px solid #ddd;
+	}
+    blockquote * {margin:0;}
+    	* html blockquote * {margin:0;}
+    	*+html blockquote * {margin:0;}
+
+/* hr */
+hr {
+	display:block;
+	margin:1.5em 0;	
+	width:100%;
+	height:1px;
+	border:none;
+	border-bottom:1px dashed #b1d8f5;
+	background:none;
+	}
+
+/* other stuff */
+address {font-size:1.3em;}
+code, pre {	 
+	font-family:"Courier New", Courier, monospace; 
+	color:#c33;
+	}
+sup {vertical-align:super;}
+sub {vertical-align:sub;}	
+big {font-size:1.2em;}
+small, sup, sub {font-size:.9em;}
+abbr, acronym {
+	text-transform:uppercase;
+	letter-spacing:.1em;
+	}
+a abbr, a acronym {border:none;}
+abbr[title], acronym[title], dfn[title] {
+	border-bottom:1px dotted;
+	cursor:help;
+	}	
+	
+/* Selection */
+::-moz-selection{ background:#ff9; color:#666; text-shadow:none; }
+::selection { background:#ff9; color:#666; text-shadow:none; }
+a:link { -webkit-tap-highlight-color:#ff9; }
+
+
+/* Specail styles */
+.georgia-16 {font:normal 1.6em/1.5em Georgia, Palatino, "Palatino Linotype", Times, "Times New Roman", serif;}
+.times-14 {font:normal 1.4em/1.14em Times, "Times New Roman", Georgia, serif;}
+.palatino-18 {font:normal 1.8em/1.33em Palatino, "Palatino Linotype", Georgia, Times, "Times New Roman", serif;}

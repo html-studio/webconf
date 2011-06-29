@@ -1,0 +1,28 @@
+/* Table
+---------------------------------------------- */
+
+table,
+table td {
+    border:1px solid #999;
+    background:rgba(255, 255, 255, .2);
+    }
+
+table td,
+table th {
+    padding:.714em 1.4em;
+    vertical-align:top;
+    text-align:left;
+    font-size:1.4em;
+    }
+
+table p {
+    font-size:1em;
+    }
+
+table.schedule {
+    width:620px;
+    }
+table.schedule .time {
+    width:140px;
+    background:rgba(255, 197, 120, .2);
+    }

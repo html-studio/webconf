@@ -1,0 +1,128 @@
+/* Navigation
+---------------------------------------------- */
+#nav-main {
+    margin:0 0 8em;
+
+    -webkit-box-shadow:0 1px 0 rgba(255,255,255,.5) inset;
+    -moz-box-shadow:0 1px 0 rgba(255,255,255,.5) inset;
+    box-shadow:0 1px 0 rgba(255,255,255,.5) inset;
+
+    border:1px solid #999;
+    border:1px solid rgba(0,0,0,.15);
+
+    background:#e1d9b4;
+    background:rgba(0,0,0,.1);
+
+    -moz-border-radius:.4em; /* FF1-3.6 */
+    -webkit-border-radius:.4em; /* Saf3-4, iOS 1-3.2, Android <1.6 */
+    border-radius:.4em; /* Opera 10.5, IE9, Saf5, Chrome, FF4, iOS 4, Android 2.1+ */
+
+    /* useful if you don't want a bg color from leaking outside the border: */
+    -moz-background-clip:padding;
+    -webkit-background-clip:padding-box;
+    background-clip:padding-box;
+    }
+    #nav-main ul {
+        margin:0;
+        padding:.5em;
+        list-style:none;
+        text-align:center;
+        text-transform:lowercase;
+        white-space:nowrap;
+        }
+        #nav-main li {
+            display:inline-block;
+            margin:0 .625em;
+            }
+            .ie6 #nav-main li,
+            .ie7 #nav-main li {
+                display:inline;
+                zoom:1;
+                }
+            #nav-main a {
+                display:block;
+                padding:.0625em .9375em .25em;
+
+                -moz-border-radius:.25em; /* FF1-3.6 */
+                -webkit-border-radius:.25em; /* Saf3-4, iOS 1-3.2, Android <1.6 */
+                border-radius:.25em; /* Opera 10.5, IE9, Saf5, Chrome, FF4, iOS 4, Android 2.1+ */
+
+                /* useful if you don't want a bg color from leaking outside the border: */
+                -moz-background-clip:padding;
+                -webkit-background-clip:padding-box;
+                background-clip:padding-box;
+
+                -moz-box-shadow:0 -1px 0 rgba(0,0,0,0), 0 1px 0 rgba(255,255,255,0); /* FF3.5+ */
+                -webkit-box-shadow:0 -1px 0 rgba(0,0,0,0), 0 1px 0 rgba(255,255,255,0); /* Saf3.0+, Chrome */
+                box-shadow:0 -1px 0 rgba(0,0,0,0), 0 1px 0 rgba(255,255,255,0); /* Opera 10.5, IE9, Chrome 10+ */
+
+                text-decoration:none;
+                text-shadow:0 1px 0 rgba(255,255,255,.5);
+                color:#666;
+                }
+                #nav-main a:hover {
+                    -webkit-transition:all 0.3s ease-out;  /* Saf3.2+, Chrome */
+                    -moz-transition:all 0.3s ease-out;  /* FF4+ */
+                    -ms-transition:all 0.3s ease-out;  /* IE10? */
+                    -o-transition:all 0.3s ease-out;  /* Opera 10.5+ */
+                    transition:all 0.3s ease-out;
+
+                    background:#b7b193;
+                    background:rgba(0,0,0,.2);
+
+                    -moz-box-shadow:0 -1px 0 rgba(0,0,0,.5), 0 1px 0 rgba(255,255,255,.3); /* FF3.5+ */
+                    -webkit-box-shadow:0 -1px 0 rgba(0,0,0,.5), 0 1px 0 rgba(255,255,255,.3); /* Saf3.0+, Chrome */
+                    box-shadow:0 -1px 0 rgba(0,0,0,.5), 0 1px 0 rgba(255,255,255,.3); /* Opera 10.5, IE9, Chrome 10+ */
+
+                    text-shadow:0 1px 0 rgba(0,0,0,.5);
+
+                    color:#fff;
+                    }
+
+/*
+Back to top button
+*/
+#back-top {
+    position:fixed;
+    right:33px;
+    bottom:40px;
+    display:block;
+    opacity:1;
+    padding:15px 10px;
+    background-color:#ccc;
+    background:rgba(0,0,0,.3);
+    -webkit-border-radius:15px;
+    -moz-border-radius:15px;
+    border-radius:15px;
+    text-align:center;
+    font:11px/100% Arial, Helvetica, sans-serif;
+    text-transform:uppercase;
+    text-decoration:none;
+    color:#ccc;
+    /* background color transition */
+    -webkit-transition:1s;
+    -moz-transition:1s;
+    transition:1s;
+    }
+    #back-top:hover {
+        background-color:#777;
+        background:rgba(0,0,0,.5);
+        color:#fff;
+        }
+    /* arrow icon (span tag) */
+    #back-top span {
+        display:block;
+        margin-bottom:7px;
+        /* background color transition */
+        -webkit-transition:1s;
+        -moz-transition:1s;
+        transition:1s;
+        width:0;
+        height:0;
+        border-left:30px solid transparent;
+        border-right:30px solid transparent;
+        border-bottom:30px solid rgba(255,255,255,.8);
+        }
+        #back-top:hover span {
+            border-bottom:30px solid rgba(255,255,255,1);
+            }

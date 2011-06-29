@@ -1,0 +1,171 @@
+/* --------------------------------------------------------------
+	layout.css
+	
+	Common rules for template of page
+-------------------------------------------------------------- */
+
+html, body {min-height:100%;}
+	* html, * body {height:100%;}
+
+body {background:#201c1b url(../img/bg_body.png) 0 0 repeat;}
+
+/* Wrapper
+---------------------------------------------- */
+#wrapper {
+	position:relative;
+    margin:4em auto;
+    padding:0 10px 500px;
+	min-height:100%;
+	text-align:left;
+
+    border:1px solid #fef5cc;
+
+    background-color:#fffdee;
+    background:url(../img/03_nature_color.png) 50% 100% no-repeat,
+        url(../img/bg_paper.png) 0 0 repeat,
+        #fffdee;
+    -webkit-border-radius:15px; /* Saf3-4, iOS 1-3.2, Android <1.6 */
+    -moz-border-radius:15px; /* FF1-3.6 */
+    border-radius:15px; /* Opera 10.5, IE9, Saf5, Chrome, FF4, iOS 4, Android 2.1+ */
+
+    /* useful if you don't want a bg color from leaking outside the border: */
+    -webkit-background-clip:padding-box;
+    -moz-background-clip:padding;
+    background-clip:padding-box;
+
+
+    -webkit-box-shadow:0 15px 20px -10px rgba(0,0,0,.5), 5px 5px 15px rgba(0,0,0,.3), inset 0 0 100px rgba(240,216,160,.3); /* Saf3.0+, Chrome */
+    -moz-box-shadow:0 15px 20px -10px rgba(0,0,0,.5), 5px 5px 15px rgba(0,0,0,.3), inset 0 0 100px rgba(240,216,160,.3); /* FF3.5+ */
+    box-shadow:0 15px 20px -10px rgba(0,0,0,.5), 5px 5px 15px rgba(0,0,0,.3), inset 0 0 100px rgba(240,216,160,.3); /* Opera 10.5, IE9, Chrome 10+ */
+	}
+	* html #wrapper {height:100%;}
+
+/* Fixed layout (default)
+---------------------------------------------- */
+#wrapper {width:940px;}
+
+/* Flexible layout
+---------------------------------------------- */
+.flexible #wrapper {
+    width:auto;
+    min-width:940px;
+    }
+* html .flexible #wrapper {width:expression((document.documentElement.clientWidth || document.body.clientWidth) <= 940? "940px" : "auto");}
+
+/* Header
+---------------------------------------------- */		
+#header {
+    margin:0 0 3.9em;
+    text-align:center;
+    }
+    #header h1 {
+        margin:1em 0 0;
+        text-shadow:0 5px 0 #fff;
+        font:bold 10em/1em "Cabin Sketch", Arial, serif;
+        color:#39363c;
+        }
+    #header h2 {
+        margin:.35em 0 .45em;
+        text-shadow:0 1px 1px #fff;
+		font:normal 2.2em/1em Palatino, "Palatino Linotype", Georgia, Times, "Times New Roman", serif;
+        color:#cf0404;
+        }
+    #header p {
+        text-shadow:0 1px 1px #fff;
+        font-size:2.8em;
+        line-height:1.44em;
+        }
+
+/* Content
+---------------------------------------------- */
+#content {margin:0 8em;}
+
+
+/* Site Info
+---------------------------------------------- */
+#footer {
+    position:absolute;
+    top:100%;
+    left:0;
+    padding:1em 0;
+    width:100%;
+    }
+    #footer .copyright {
+		margin:0 10px;
+        font-size:1.2em;
+        color:#ccc;
+        }
+
+/* Ribbon */
+#ribbon {
+    position:absolute;
+    top:0;
+    left:100%;
+    z-index:2;
+    margin:-2px 0 0 -111px;
+    width:60px;
+    height:122px;
+    background:#f51900;
+    background-image:-webkit-gradient(linear, left top, left bottom, from(#cf0404), to(#f51900)); /* Saf4+, Chrome */
+    background-image:-webkit-linear-gradient(top, #cf0404, #f51900); /* Chrome 10+, Saf5.1+ */
+    background-image:-moz-linear-gradient(top, #cf0404, #f51900); /* FF3.6 */
+    background-image:-ms-linear-gradient(top, #cf0404, #f51900); /* IE10 */
+    background-image:-o-linear-gradient(top, #cf0404, #f51900); /* Opera 11.10+ */
+    background-image:linear-gradient(top, #cf0404, #f51900);
+    -webkit-box-shadow:3px 0 0 rgba(0,0,0,.2); /* Saf3.0+, Chrome */
+    -moz-box-shadow:3px 0 0 rgba(0,0,0,.2); /* FF3.5+ */
+    box-shadow:3px 0 0 rgba(0,0,0,.2); /* Opera 10.5, IE9, Chrome 10+ */
+    -webkit-transition:all 0.3s ease-out;  /* Saf3.2+, Chrome */
+    -moz-transition:all 0.3s ease-out;  /* FF4+ */
+    -ms-transition:all 0.3s ease-out;  /* IE10? */
+    -o-transition:all 0.3s ease-out;  /* Opera 10.5+ */
+    transition:all 0.3s ease-out;
+    }
+    #ribbon:after {
+        content:"";
+        position:absolute;
+        top:100%;
+        left:0;
+        z-index:2;
+        display:block;
+        width:0;
+        height:0;
+        border-left:30px solid #f51900;
+        border-right:30px solid #f51900;
+        border-bottom:30px solid transparent;
+        }
+    #ribbon:before {
+        content:"";
+        position:absolute;
+        top:100%;
+        left:0;
+        z-index:1;
+        display:block;
+        margin-left:3px;
+        width:0;
+        height:0;
+        border-left:30px solid rgba(0,0,0,.2);
+        border-right:30px solid rgba(0,0,0,.2);
+        border-bottom:30px solid transparent;
+        }
+    #ribbon:hover {
+        height:152px;
+        }
+
+
+.intro {
+    float:left;
+    margin:-4px 20px 0 0;
+    width:460px;
+    }
+
+.sign-up-container {
+    float:left;
+    width:300px;
+    text-align:right;
+    }
+    .sign-up-container small {
+        float:right;
+        margin:0 0 1.2em;
+        font-size:1em;
+        }
