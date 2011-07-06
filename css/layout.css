@@ -167,5 +167,32 @@ body {background:#201c1b url(../img/bg_body.png) 0 0 repeat;}
     .sign-up-container small {
         float:right;
         margin:0 0 1.2em;
-        font-size:1em;
+        font-size:1.4em;
+        }
+    .sign-up-container em {
+        font-size:1.1em;
+        color:#cf0404;
+        }
+
+/* Location */
+#location {
+    margin:0 0 4em;
+    }
+    #location .map-legend h3 {
+        font-family:Georgia, Times, "Times New Roman", serif;
+        font-size:1.4em;
+        }
+    #location .map-legend ul {
+        margin:0;
+        list-style:none;
+        }
+    #location .map-legend .ico {
+        position:absolute;
+        top:auto;
+        left:auto;
+        overflow:hidden;
+        margin:-1px 0 0 -30px;
+        width:22px;
+        height:22px;
+        background:url(http://api-maps.yandex.ru/i/0.3/placemarks/pmrds.png) no-repeat 0 0;
         }

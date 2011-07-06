@@ -49,3 +49,6 @@ ul.speakers {
                     -o-transition:all 0.1s ease-in-out;  *//* Opera 10.5+ *//*
                     transition:all 0.1s ease-in-out;
                     }*/
+            ul.speakers p.contacts {
+                font-size:1.4em;
+                }

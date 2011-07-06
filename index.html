@@ -8,7 +8,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-    <title>WebConf'11</title>
+    <title>WebConf'11 – Первая конференция веб-разработчиков Махачкалы</title>
     <meta name="description" content="Первая конференция веб-разработчиков">
     <meta name="keywords" content="html studio, html, html5, css, css3, coding, markup, microformats, jquery, ui, prototyping, design, web development, usability, accessibility, seo">
 
@@ -40,11 +40,20 @@
         </p>
     </header>
 
-    <nav id="nav-main" role="">
+    <nav id="nav-main" role="navigation">
         <ul>
-            <li><a href="#schedule">Программа</a></li>
-            <li><a href="#speakers">Участники</a></li>
-            <li><a href="#partners">Партнёры</a></li>
+            <li>
+                <a href="#schedule" title="Программа">Программа</a>
+            </li>
+            <li>
+                <a href="#speakers" title="Докладчики">Докладчики</a>
+            </li>
+            <li>
+                <a href="#partners" title="Партнёры">Партнёры</a>
+            </li>
+            <li>
+                <a href="#location" title="Место проведения">Место проведения</a>
+            </li>
         </ul>
     </nav>
 
@@ -60,7 +69,7 @@
                    href="https://spreadsheets.google.com/spreadsheet/viewform?formkey=dEZ6aEpydHVXWDdBcVhFWnU3MnRXUlE6MQ"
                    target="_blank" title="Регистрация">Регистрация</a>
 
-                <small>Участие бесплатное. Регистрация обязательна.</small>
+                <small><em>*</em> Регистрация обязательна.<br />Участие бесплатное.</small>
 
                 <script type="text/javascript" src="//yandex.st/share/share.js" charset="utf-8"></script>
                 <div class="yashare-auto-init" data-yashareL10n="ru" data-yashareType="none" data-yashareQuickServices="yaru,vkontakte,facebook,twitter,odnoklassniki,moimir,lj"></div>
@@ -68,7 +77,7 @@
         </section>
         <section id="schedule">
             <header>
-                <h2>Программа</h2>
+                <h2 title="Программа">Программа</h2>
             </header>
 
             <table class="schedule">
@@ -92,7 +101,7 @@
                     <tr>
                         <td class="schedule-hour">11:00 — 12:30</td>
                         <td class="schedule-event">
-                            <p><strong>Тема доклада уточняется</strong></p>
+                            <p><strong>Фреймворк ASP.NET MVC. Создание web-приложений</strong></p>
 
                             <p>Программирование</p>
 
@@ -108,7 +117,7 @@
                     <tr>
                         <td class="schedule-hour">12:45 — 14:15</td>
                         <td class="schedule-event">
-                            <p><strong>Тема доклада уточняется</strong></p>
+                            <p><strong>Что отличает профессионального верстальщика от&nbsp;дилетанта</strong></p>
 
                             <p>Вёрстка</p>
 
@@ -128,7 +137,7 @@
 
                             <p>Дизайн</p>
 
-                            <p><em><a href="#amina-kotomanova">Амина Котоманова</a></em></p>
+                            <!--<p><em><a href="#amina-kotomanova">Амина Котоманова</a></em></p>-->
                         </td>
                     </tr>
                     <tr>
@@ -140,11 +149,9 @@
                     <tr>
                         <td class="schedule-hour">17:00 — 18:30</td>
                         <td class="schedule-event">
-                            <p><strong>Круглый стол</strong></p>
+                            <p><strong>Управление проектами</strong></p>
 
-                            <p>Управление проектами, Реклама в интернете</p>
-
-                            <p>Ведущий: <em><a href="#timur-botvin">Тимур Ботвин</a></em></p>
+                            <p>Круглый стол. Ведущий: <em><a href="#timur-botvin">Тимур Ботвин</a></em></p>
                         </td>
                     </tr>
                     <tr>
@@ -158,7 +165,7 @@
         </section>
         <section id="speakers">
             <header>
-                <h2>Участники</h2>
+                <h2 title="Докладчики">Докладчики</h2>
             </header>
 
             <ul class="speakers">
@@ -166,21 +173,25 @@
                     <h3>Тимур Ботвин</h3>
 
                     <figure>
-                        <img src="http://placehold.it/120x120" width="120" height="120" alt="" />
+                        <img src="img/timur_botvin.jpg" width="120" height="120" alt="Тимур Ботвин – Директор компании Color-IT" />
                     </figure>
 
-                    <p>Руководитель Творческой студии <a href="http://color-it.ru/" target="_blank" title="Сайт студии Color-IT">Color-IT</a></p>
+                    <p>Директор компании <a href="http://color-it.ru/" target="_blank" title="Сайт студии Color-IT">Color-IT</a></p>
+
+                    <p class="contacts">
+                        <a href="mailto:director@color-it.ru">director@color-it.ru</a>
+                    </p>
                 </li>
                 <li id="magomedrasul-magomed-kasumov">
                     <h3>Магомедрасул Магомед-Касумов</h3>
 
                     <figure>
-                        <img src="http://placehold.it/120x120" width="120" height="120" alt="" />
+                        <img src="http://placehold.it/120x120" width="120" height="120" alt="Магомедрасул Магомед-Касумов – Веб-разработчик, аспирант ДГУ" />
                     </figure>
 
-                    <p>Веб-разработчик, аспирант <attr title="Дагестансий государственный университет">ДГУ</attr></p>
+                    <p>Веб-разработчик, аспирант <a href="http://dgu.ru/" target="_blank" title="Сайт Дагестанского государственного университета">ДГУ</a></p>
                 </li>
-                <li id="amina-kotomanova">
+                <!--<li id="amina-kotomanova">
                     <h3>Амина Котоманова</h3>
 
                     <figure>
@@ -189,25 +200,30 @@
 
                     <p>Веб-дизайнер, художник</p>
 
-                    <p class="contacts"><a href="http://amina-rasulova.moikrug.ru/" target="_blank">Мой круг</a>,
-                        <a href="http://rebelart.ru/" target="_blank">Сайт выставки</a></p>
-                </li>
+                    <p class="contacts">
+                        <a href="http://amina-rasulova.moikrug.ru/" target="_blank">Мой круг</a>,
+                        <a href="http://rebelart.ru/" target="_blank">Сайт выставки</a>
+                    </p>
+                </li>-->
                 <li id="alexander-kotomanov">
                     <h3>Александр Котоманов</h3>
 
                     <figure>
-                        <img src="img/ak.jpg" width="120" height="120" alt="Александр Котоманов" />
+                        <img src="img/alex_kotomanov.jpg" width="120" height="120" alt="Александр Котоманов" />
                     </figure>
 
-                    <p>Верстальщик</p>
+                    <p>Разработчик пользовательских интерфейсов в&nbsp;компании <a href="http://www.yota.ru/ru/" target="_blank" title="Сайт компании Yota">Yota</a></p>
 
-                    <p class="contacts"><a href="http://about.me/kotomanov" target="_blank">About.me</a>, <a href="http://akotomanov.moikrug.ru/" target="_blank">Мой круг</a></p>
+                    <p class="contacts">
+                        <a href="http://about.me/kotomanov" target="_blank">About.me</a>,
+                        <a href="http://akotomanov.moikrug.ru/" target="_blank">Мой круг</a>
+                    </p>
                 </li>
             </ul>
         </section>
         <section id="partners">
             <header>
-                <h2>Партнёры</h2>
+                <h2 title="Партнёры">Партнёры</h2>
             </header>
 
             <ul class="partners gallery clear">
@@ -220,14 +236,22 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#" target="_blank" title="Творческая студия Color-IT">
+                    <a href="#" target="_blank" title="Color-IT">
                         <figure>
-                            <img src="http://placehold.it/120x120" width="120" height="120" alt="Творческая студия Color-IT" />
-                            <figcaption>Творческая студия Color-IT</figcaption>
+                            <img src="http://placehold.it/120x120" width="120" height="120" alt="Color-IT" />
+                            <figcaption>Color-IT</figcaption>
                         </figure>
                     </a>
                 </li>
                 <li>
+                    <a href="#" target="_blank" title="Дагестанский государственный педагогический университет">
+                        <figure>
+                            <img src="http://placehold.it/120x120" width="120" height="120" alt="Дагестанский государственный педагогический университет" />
+                            <figcaption>ДГПУ</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <!--<li>
                     <a href="#" target="_blank" title="">
                         <figure>
                             <img src="http://placehold.it/120x120" width="120" height="120" alt="" />
@@ -242,16 +266,30 @@
                             <figcaption></figcaption>
                         </figure>
                     </a>
-                </li>
-                <li>
-                    <a href="#" target="_blank" title="">
-                        <figure>
-                            <img src="http://placehold.it/120x120" width="120" height="120" alt="" />
-                            <figcaption></figcaption>
-                        </figure>
-                    </a>
-                </li>
+                </li>-->
             </ul>
+        </section>
+        <section id="location">
+            <header>
+                <h2 title="Место проведения">Место проведения</h2>
+            </header>
+
+            <p>Встреча пройдёт в&nbsp;конференц-зале <a href="#" target="_blank" title="Дагестанский государственный педагогический университет">ДГПУ</a>, расположенному по&nbsp;адресу&nbsp;ул. М.&nbsp;Ярагского, д.&nbsp;57.</p>
+
+            <!-- Map Begin -->
+            <img src="http://static-maps.yandex.ru/1.x/?ll=47.507946,42.971198&z=16&l=pmap&size=450,350&pt=47.508772,42.971293,pmrdm&key=ACLpFE4BAAAAQ8-VRwIBWQEB1b4NfAECVmjv1wsFwb1K8v8AAAAAAAAAAAA05SShaO-OafDl4EuPZ3hXSG5-lA==&wizard=constructor" alt="Карта"/>
+
+            <div class="map-legend">
+                <h3>Отмечено на карте:</h3>
+                <ul>
+                    <li>
+                        <em class="ico"></em>
+                        Дагестанский государственный педагогический университет
+                    </li>
+                </ul>
+            </div>
+            <!-- Map End -->
+
         </section>
     </section>
 
@@ -286,14 +324,5 @@
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
     })();
 </script>
-
-<!-- Yandex.Metrika -->
-<script src="//mc.yandex.ru/metrika/watch.js" type="text/javascript"></script>
-<div style="display:none;"><script type="text/javascript">
-try { var yaCounter1511649 = new Ya.Metrika(1511649); } catch(e){}
-</script></div>
-<noscript><div style="position:absolute"><img src="//mc.yandex.ru/watch/1511649" alt="" /></div></noscript>
-<!-- /Yandex.Metrika -->
-
 </body>
 </html>
