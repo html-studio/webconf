@@ -1,7 +1,12 @@
 /* Navigation
 ---------------------------------------------- */
+/* Main navigation */
 #nav-main {
+    position:absolute;
+    top:36em;
+
     margin:0 0 8em;
+    width:94em;
 
     -webkit-box-shadow:0 1px 0 rgba(255,255,255,.5) inset;
     -moz-box-shadow:0 1px 0 rgba(255,255,255,.5) inset;
@@ -77,6 +82,38 @@
                     text-shadow:0 1px 0 rgba(0,0,0,.5);
 
                     color:#fff;
+                    }
+
+/* Supplement navigation */
+#nav-sup {
+    position:absolute;
+    top:100%;
+    right:0;
+    }
+    #nav-sup ul {
+        margin:0;
+        padding:1em 0;
+        list-style:none;
+        text-align:right;
+        white-space:nowrap;
+        }
+        #nav-sup li {
+            display:inline-block;
+            margin:0 .625em;
+            font-size:1.2em;
+            font-style:italic;
+            }
+            .ie6 #nav-sup li,
+            .ie7 #nav-sup li {
+                display:inline;
+                zoom:1;
+                }
+            #nav-sup a {
+                text-decoration:none;
+                border-bottom:1px dotted;
+                }
+                #nav-sup a:hover {
+                    border:none;
                     }
 
 /*

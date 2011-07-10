@@ -20,9 +20,9 @@ table p {
     }
 
 table.schedule {
-    width:620px;
+    width:62em;
     }
 table.schedule .time {
-    width:140px;
+    width:14em;
     background:rgba(255, 197, 120, .2);
     }

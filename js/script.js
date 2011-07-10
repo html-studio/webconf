@@ -1,9 +1,9 @@
 $(function(){
     // hide #back-top first
-//	$("#back-top").hide();
+	$("#back-top").hide();
 
 	// fade in #back-top
-	/*$(function () {
+	$(function () {
 		$(window).scroll(function () {
 			if ($(this).scrollTop() > 360) {
 				$('#back-top').fadeIn();
@@ -19,5 +19,5 @@ $(function(){
 			}, 800);
 			return false;
 		});
-	});*/
+	});
 });
