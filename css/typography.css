@@ -49,6 +49,9 @@ p {
 img {
     border:10px solid #fff;
     background:#cdcdcd;
+    -webkit-box-shadow:0 0 5px rgba(0,0,0,.2); /* Saf3.0+, Chrome */
+    -moz-box-shadow:0 0 5px rgba(0,0,0,.2); /* FF3.5+ */
+    box-shadow:0 0 5px rgba(0,0,0,.2); /* Opera 10.5, IE9, Chrome 10+ */
     }
 figure {margin:0 0 .5em;}
     figure img {

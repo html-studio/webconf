@@ -28,27 +28,6 @@ ul.speakers {
             left:0;
             top:0;
             }
-            ul.speakers img {
-                -webkit-box-shadow:0 0 5px rgba(0,0,0,.2); /* Saf3.0+, Chrome */
-                -moz-box-shadow:0 0 5px rgba(0,0,0,.2); /* FF3.5+ */
-                box-shadow:0 0 5px rgba(0,0,0,.2); /* Opera 10.5, IE9, Chrome 10+ */
-                }
-                /*ul.speakers img:hover {
-                    -webkit-box-shadow:0 0 5px rgba(0,0,0,.5); *//* Saf3.0+, Chrome *//*
-                    -moz-box-shadow:0 0 5px rgba(0,0,0,.5); *//* FF3.5+ *//*
-                    box-shadow:0 0 5px rgba(0,0,0,.5); *//* Opera 10.5, IE9, Chrome 10+ *//*
-
-                    -webkit-transform:scale(1.1,1.1);
-                    -moz-transform:scale(1.1,1.1);
-                    -ms-transform:scale(1.1,1.1);
-                    -o-transform:scale(1.1,1.1);
-                    transform:scale(1.1,1.1);
-                    -webkit-transition:all 0.1s ease-in-out;  *//* Saf3.2+, Chrome *//*
-                    -moz-transition:all 0.1s ease-in-out;  *//* FF4+ *//*
-                    -ms-transition:all 0.1s ease-in-out;  *//* IE10? *//*
-                    -o-transition:all 0.1s ease-in-out;  *//* Opera 10.5+ *//*
-                    transition:all 0.1s ease-in-out;
-                    }*/
-            ul.speakers p.contacts {
-                font-size:1.4em;
-                }
+        ul.speakers p.contacts {
+            font-size:1.4em;
+            }
