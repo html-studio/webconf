@@ -150,8 +150,8 @@ abbr[title], acronym[title], dfn[title] {
 	}	
 	
 /* Selection */
-::-moz-selection{ background:#ff9; color:#666; text-shadow:none; }
-::selection { background:#ff9; color:#666; text-shadow:none; }
+::-moz-selection{ background:#ff9; color:#000; text-shadow:none; }
+::selection { background:#ff9; color:#000; text-shadow:none; }
 a:link { -webkit-tap-highlight-color:#ff9; }
 
 
