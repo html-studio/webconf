@@ -196,3 +196,16 @@ body {background:#201c1b url(../img/bg_body.png) 0 0 repeat;}
         height:22px;
         background:url(http://api-maps.yandex.ru/i/0.3/placemarks/pmrds.png) no-repeat 0 0;
         }
+
+
+/* Link to Github */
+#github {
+    position:absolute;
+    top:0;
+    right:0;
+    z-index:10;
+    display:block;
+    width:149px;
+    height:149px;
+    background:url(http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png) 100% 0 no-repeat;
+    }
