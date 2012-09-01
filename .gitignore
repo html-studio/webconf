@@ -1,0 +1,4 @@
+*.sublime-project
+*.sublime-workspace
+thumbs.db
+.DS_Store
